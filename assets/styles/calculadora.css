@@ -3,6 +3,9 @@
     padding: 0%;
     margin: 0%;
 }
+h1{
+    justify-content: center;
+}
 html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 62.5%;
@@ -67,4 +70,8 @@ html{
 }
 .keypad-button.large{
     width: 50%;
+}
+
+img{
+    width: 200px;
 }
