@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2rem;
+    border: 1px solid gray;
+    overflow: auto;
+
+}
+
+.calculator-display{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid gray;
+}
+
+.calculator-keypad{
+    display: flex;
+    width: 100%;
+
+}
+
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width:  100%;
+
+}
+
+.keypad-button{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.keypad-button:hover {
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+.keypad-button.blue{
+    background-color: rgba(0, 176, 182, 0.479);
+}
+.keypad-button.dark{
+    background-color: rgba(42, 121, 124, 0.479);
+}
+.keypad-button.large{
+    width: 50%;
+}
