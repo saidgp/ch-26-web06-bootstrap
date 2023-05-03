@@ -1,0 +1,44 @@
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.c{
+    margin: 3rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.t{
+    margin: 3rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.t1{
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+.t2{
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.t3{
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
