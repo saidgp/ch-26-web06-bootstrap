@@ -1,0 +1,35 @@
+.col{
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.t1{
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+.t2{
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.container{
+    justify-content: center;
+    text-align: center;
+}
+.buton{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
